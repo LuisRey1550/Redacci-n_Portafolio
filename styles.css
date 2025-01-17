@@ -85,7 +85,7 @@ body, html {
 .casilla {
     border: 2px solid #ccc;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #f1bf74;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -99,7 +99,7 @@ ul {
 }
 
 li {
-    background-color: ##d1ad69;
+    background-color: #d6d4d0;
     padding: 10px;
     margin-bottom: 10px;
 }
