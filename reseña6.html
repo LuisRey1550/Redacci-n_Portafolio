@@ -3,75 +3,172 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Reseña de *Spider-Man: Un Nuevo Universo* por Jesus Miguel Hilario</title>
+  <title>Reseña de Spider-Man: Un Nuevo Universo</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
+    /* Reset styles */
+    * {
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
     }
-    header {
-      background-color: #1a1a1a;
-      color: white;
-      padding: 15px;
-      text-align: center;
-    }
-    article {
-      padding: 20px;
-      margin: 20px;
-      background-color: white;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    footer {
-      background-color: #1a1a1a;
-      color: white;
-      text-align: center;
-      padding: 10px;
-      position: fixed;
-      width: 100%;
-      bottom: 0;
-    }
-    h2 {
-      color: #1a1a1a;
-    }
-    p, ul {
-      font-size: 16px;
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
       line-height: 1.6;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background: linear-gradient(45deg, #d62c2f, #0e76a8);
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+      position: relative;
+    }
+
+    header h1 {
+      font-size: 3em;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    }
+
+    .author {
+      font-style: italic;
+      color: #f1c40f;
+    }
+
+    .ficha-tecnica ul {
+      list-style-type: none;
+      padding-left: 0;
+      font-size: 1.2em;
+      margin-top: 20px;
+    }
+
+    .ficha-tecnica li {
+      margin-bottom: 10px;
+    }
+
+    .ficha-tecnica strong {
+      color: #f1c40f;
+    }
+
+    h2 {
+      font-size: 2em;
+      margin-top: 30px;
+      color: #f1c40f;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+
+    .sintesis, .critica, .conclusion {
+      margin-top: 20px;
+      font-size: 1.1em;
+    }
+
+    .sintesis p, .critica p, .conclusion p {
+      margin-bottom: 20px;
+      text-align: justify;
+    }
+
+    .sintesis {
+      background-color: rgba(0, 0, 0, 0.2);
+      padding: 15px;
+      border-radius: 5px;
+    }
+
+    .critica {
+      background-color: rgba(0, 0, 0, 0.1);
+      padding: 15px;
+      border-radius: 5px;
+    }
+
+    .conclusion {
+      background-color: rgba(0, 0, 0, 0.3);
+      padding: 15px;
+      border-radius: 5px;
+    }
+
+    .conclusion strong {
+      font-weight: bold;
+      color: #e67e22;
+    }
+
+    /* Efecto de telaraña */
+    .spider-web {
+      position: absolute;
+      top: -20px;
+      left: -20px;
+      width: 100%;
+      height: 100%;
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/1b/Spider-web.svg');
+      background-size: 200px 200px;
+      background-repeat: no-repeat;
+      opacity: 0.1;
+      pointer-events: none;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        width: 95%;
+      }
+
+      header h1 {
+        font-size: 2em;
+      }
+
+      h2 {
+        font-size: 1.5em;
+      }
     }
   </style>
 </head>
 <body>
+  <div class="container">
+    <div class="spider-web"></div>
+    <header>
+      <h1>Spider-Man: Un Nuevo Universo</h1>
+      <p class="author">Reseña por: Jesus Miguel Hilario</p>
+    </header>
 
-  <header>
-    <h1>Reseña de *Spider-Man: Un Nuevo Universo* por Jesus Miguel Hilario</h1>
-    <p>10-12-2025</p>
-  </header>
+    <section class="ficha-tecnica">
+      <h2>Ficha Técnica</h2>
+      <ul>
+        <li><strong>Título:</strong> Spider-Man: Un Nuevo Universo</li>
+        <li><strong>Año de estreno:</strong> 2018</li>
+        <li><strong>Dirección:</strong> Bob Persichetti, Peter Ramsey y Rodney Rothman</li>
+        <li><strong>Guionistas:</strong> Phil Lord y Rodney Rothman</li>
+        <li><strong>Género:</strong> Animación, Acción, Aventura, Ciencia Ficción</li>
+        <li><strong>Duración:</strong> 1h 57min</li>
+      </ul>
+    </section>
 
-  <article>
-    <h2>Ficha técnica</h2>
-    <p><strong>Título:</strong> Spider-Man: Un Nuevo Universo</p>
-    <p><strong>Año de estreno:</strong> 2018</p>
-    <p><strong>Dirección:</strong> Bob Persichetti, Peter Ramsey y Rodney Rothman</p>
-    <p><strong>Guionistas:</strong> Phil Lord y Rodney Rothman</p>
-    <p><strong>Género:</strong> Animación / Acción / Aventura / Ciencia Ficción</p>
-    <p><strong>Duración:</strong> 1h 57min</p>
+    <section class="sintesis">
+      <h2>Síntesis y Comentario</h2>
+      <p>En *Spider-Man: Un Nuevo Universo* se nos presenta la trama de Miles, un adolescente de la ciudad de Brooklyn el cual pertenece a un universo en el que Spider-Man muere. Miles es picado por una araña la cual le da superpoderes y toma la decisión de continuar la última misión del antiguo héroe caído. En el camino encontrará a más personas con sus mismas capacidades, quienes se unirán a Miles para combatir a un peligroso enemigo que amenaza todas las realidades.</p>
+      <p>Esta maravillosa película animada revolucionó la animación de la década pasada y sigue siendo influyente para proyectos de hoy en día. Su manera de contar el origen de Spider-Man desde la perspectiva de un nuevo protagonista, el cual es bastante carismático y logra conectar con la audiencia, le da un toque fresco a la franquicia.</p>
+    </section>
 
-    <h2>Síntesis y comentario</h2>
-    <p>En *Spider-Man: Un Nuevo Universo* se nos presenta la trama de Miles, un adolescente de la ciudad de Brooklyn, quien pertenece a un universo en el que Spider-Man muere. Miles es picado por una araña que le da superpoderes y toma la decisión de continuar la última misión del antiguo héroe caído. En el camino encontrará a más personas con sus mismas capacidades, quienes se unirán a Miles para combatir a un peligroso enemigo que amenaza todas las realidades. Esta maravillosa película animada revolucionó la animación de la década pasada y sigue siendo influyente para proyectos actuales. Su manera de contar el origen de Spider-Man desde la perspectiva de un nuevo protagonista, quien es bastante carismático y logra conectar con la audiencia, le da un toque fresco a la franquicia.</p>
+    <section class="critica">
+      <h2>Juicio Crítico</h2>
+      <p>Esta película logra transmitir la visión que tenían los directores de hacer parecer que estamos viendo un cómic en movimiento, debido a la combinación de 2D, 3D y nuevas técnicas empleadas. Los detalles de la película son la parte más llamativa de esta, como el hecho de que los fotogramas de la película vayan subiendo a medida que el protagonista crece, se desarrolla y se consolida como Spider-Man. Se tratan temas bastante serios como el vandalismo, el duelo después de la muerte y hasta los diferentes tipos de relaciones que puede tener un hijo con sus padres, pero estos temas los trata de manera tan natural y limpia que hace que se sientan suaves y fáciles de comprender, lo que resulta en que el mensaje y las moralejas que quieren transmitir lleguen a la audiencia.</p>
+      <p>Su trama tiene un ritmo adecuado, en ningún momento se siente pesada o muy rápida, además de que la participación del villano y los personajes secundarios es espectacular y mueven toda la película. Además, tiene fácilmente el soundtrack más memorable de su año, con canciones que en la película suenan en momentos justos y con letras que acompañan al momento causando mayor sentimiento.</p>
+    </section>
 
-    <h2>Juicio Crítico</h2>
-    <p>Esta película logra transmitir la visión que tenían los directores de hacer parecer que estamos viendo un cómic en movimiento, gracias a la combinación de 2D, 3D y nuevas técnicas empleadas. Los detalles de la película son la parte más llamativa, como el hecho de que los fotogramas vayan subiendo a medida que el protagonista crece, se desarrolla y se consolida como Spider-Man. Se tratan temas serios como el vandalismo, el duelo por la muerte y los diferentes tipos de relaciones entre padres e hijos, pero estos temas se abordan de manera tan natural y limpia que resultan fáciles de comprender, lo que hace que el mensaje y las moralejas lleguen con claridad a la audiencia. La trama tiene un ritmo adecuado, sin sentirse pesada ni demasiado rápida, y la participación del villano y los personajes secundarios es espectacular y mueve toda la película. Además, el soundtrack tiene fácilmente las canciones más memorables de su año, con momentos justos y letras que acompañan cada escena, intensificando el sentimiento.</p>
-
-    <h2>Conclusión</h2>
-    <p>*Spider-Man: Un Nuevo Universo* cuenta el origen del héroe de manera fresca, con mucho humor, acción y drama. Nos muestra cómo la animación no es un género, sino un medio para contar historias. Esta película, que revolucionó la animación, nos da valiosas enseñanzas sobre la vida. Aunque animada, la película transmite lecciones realistas, como cómo el peso de las expectativas de los demás recae sobre nosotros, y cómo, a menudo, no nos atrevemos a hacer más de lo que podemos por miedo a salir de nuestra zona de confort. Pero nunca sabremos si podemos hacerlo hasta que demos un salto de fe.</p>
-    <p><strong>Mi calificación es:</strong> 9.8/10</p>
-  </article>
-
-  <footer>
-    <p>&copy; 2025 Jesus Miguel Hilario - Todos los derechos reservados.</p>
-  </footer>
-
+    <section class="conclusion">
+      <h2>Conclusión</h2>
+      <p>*Spider-Man: Un Nuevo Universo* cuenta el origen del héroe de una manera fresca, con mucho humor, acción y drama. Nos muestra cómo la animación no es un género, sino un medio por el cual contar historias. Esta película que revolucionó la animación nos da valiosas enseñanzas sobre la vida, que aun siendo animada, nos enseña de manera realista.</p>
+      <p>Esta película trata sobre cómo el peso de las expectativas de los demás recae sobre nosotros, pero también nos da a entender cómo en la vida muchas veces no nos atrevemos a hacer más de lo que podemos, ya que eso sería salir de nuestra zona de confort. Pero nunca sabremos si podremos o no, y para ello necesitamos dar un salto de fe.</p>
+      <p><strong>Mi calificación es: 9.8/10</strong></p>
+    </section>
+  </div>
 </body>
 </html>
