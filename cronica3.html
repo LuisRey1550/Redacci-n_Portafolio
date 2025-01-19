@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -6,34 +6,100 @@
     <title>Una lucha por un ser querido</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            background-color: #f4f4f9;
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f7c1d1, #f2d5a0);
+            color: #4a4a4a;
+            box-sizing: border-box;
         }
         h1 {
             text-align: center;
-            color: #333;
+            color: #944c49;
+            font-size: 3.5em;
+            margin-top: 60px;
+            font-family: 'Georgia', serif;
+            text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
         }
         h3 {
             text-align: center;
-            color: #555;
+            color: #d76a4b;
+            font-size: 1.8em;
+            margin-bottom: 20px;
         }
         p {
-            margin-bottom: 15px;
-            font-size: 1.1em;
-            color: #333;
+            margin-bottom: 25px;
+            font-size: 1.25em;
+            color: #5a4f49;
+            text-align: justify;
+            line-height: 1.7;
         }
         .author {
             font-style: italic;
             text-align: center;
-            margin-top: -10px;
+            color: #7a5c48;
+            font-size: 1.2em;
         }
         .content {
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+            margin: 30px auto;
+            width: 85%;
+            max-width: 1100px;
+            border: 2px solid #f7c1d1;
+            transition: transform 0.3s ease-in-out;
+        }
+        .content:hover {
+            transform: scale(1.02);
+        }
+        .image {
+            width: 100%;
+            border-radius: 15px;
+            margin-top: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+            transition: opacity 0.5s ease;
+        }
+        .image:hover {
+            opacity: 0.85;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 60px;
+            color: #7a5c48;
+            font-size: 1.2em;
+            padding-bottom: 40px;
+        }
+        .date {
+            text-align: center;
+            color: #d76a4b;
+            font-size: 1.3em;
+            margin-bottom: 40px;
+            font-family: 'Georgia', serif;
+            text-transform: uppercase;
+        }
+        footer {
+            font-size: 1.1em;
+            color: #888;
+            margin-top: 30px;
+        }
+        .highlight {
+            color: #b54242;
+            font-weight: bold;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .content {
+            animation: fadeIn 1s ease-in-out;
         }
     </style>
 </head>
@@ -46,23 +112,28 @@
 <main>
     <p class="author">Por: M. Saís P. Jiménez</p>
     <p class="date">10-1-2025</p>
-    
-    <p>Dalas adoptó a un galgo en 2015 por caridad a través de una protectora, promoviendo la adopción y evitando que los animales terminen abandonados o, en el peor de los casos, sacrificados. Encontró al cachorro muy amigable y cariñoso, convirtiéndose con el tiempo en un gran compañero de vida, al punto de sentirlo como un hijo. Vivió con Dalas hasta mediados de 2019, cuando, tras cortar en buenos términos con su novia de entonces, le pidió a Miare que cuidara a Argos durante un tiempo porque iba a estar de viaje.</p>
 
-    <p>Sin embargo, Miare, con el paso del tiempo, observó cómo Dalas superaba rápidamente la separación, lo que la llevó a obsesionarse de manera enfermiza con su ex. Actuó de manera maliciosa, difamando a Dalas y manchando su reputación, incluso presentándose en entrevistas de televisión solo para hablar de su relación con Dalas. Este comportamiento deterioró su carrera y generó calumnias graves. A pesar de todo esto, Dalas seguía intentando ver a su querido amigo, Argos, pero Miare le impedía el paso, inventando excusas para fastidiarlo.</p>
+    <div class="content">
+        <img class="image" src="dalas1.jpg" alt="Imagen de un galgo" />
+        <p>Dalas adoptó a un galgo en 2015 por caridad a través de una protectora, promoviendo la adopción y evitando que los animales terminen abandonados o, en el peor de los casos, sacrificados. Encontró al cachorro muy amigable y cariñoso, convirtiéndose con el tiempo en un gran compañero de vida, al punto de sentirlo como un hijo. Vivió con Dalas hasta mediados de 2019, cuando, tras cortar en buenos términos con su novia de entonces, le pidió a Miare que cuidara a Argos durante un tiempo porque iba a estar de viaje.</p>
 
-    <p>Luego, Miare se atrevió a cambiar el nombre del perro a Marlos, un intento claro de apropiarse de él. Dalas, frustrado, advirtió que emprendería acciones legales. No obstante, Dalas ya estaba siendo linchado por rumores y calumnias, lo que lo llevó a enfrentar varios juicios. A pesar de las acusaciones graves, Dalas salió inocente de todos los juicios, pero no se quedaría de brazos cruzados. Llevó a juicio a Miare y a cualquier cómplice, exigiendo que le devolvieran a Argos.</p>
+        <img class="image" src="dalas2.jpg" alt="Imagen de Dalas y Argos" />
+        <p>Sin embargo, Miare, con el paso del tiempo, observó cómo Dalas superaba rápidamente la separación, lo que la llevó a obsesionarse de manera enfermiza con su ex. Actuó de manera maliciosa, difamando a Dalas y manchando su reputación, incluso presentándose en entrevistas de televisión solo para hablar de su relación con Dalas. Este comportamiento deterioró su carrera y generó calumnias graves. A pesar de todo esto, Dalas seguía intentando ver a su querido amigo, Argos, pero Miare le impedía el paso, inventando excusas para fastidiarlo.</p>
 
-    <p>El caso tomó más tiempo de lo esperado. A pesar de las pruebas claras de que el perro era Argos, Miare cambió el microchip del animal para dificultar la prueba de propiedad. Dalas hizo público todo el proceso, mostrando la injusticia por la que estaba pasando.</p>
+        <p>Luego, Miare se atrevió a cambiar el nombre del perro a Marlos, un intento claro de apropiarse de él. Dalas, frustrado, advirtió que emprendería acciones legales. No obstante, Dalas ya estaba siendo linchado por rumores y calumnias, lo que lo llevó a enfrentar varios juicios. A pesar de las acusaciones graves, Dalas salió inocente de todos los juicios, pero no se quedaría de brazos cruzados. Llevó a juicio a Miare y a cualquier cómplice, exigiendo que le devolvieran a Argos.</p>
 
-    <p>Tras años de lucha, el caso se celebró en juicio para decidir si Argos era de Dalas o de Miare. Parecía irreal que se llegara a tales extremos por un perro, pero Dalas haría lo que fuera por recuperar a su querido compañero. A pesar de haber ofrecido un trato a Miare, lo único que quería era la devolución de Argos, pues sabía que su perro ya se estaba poniendo viejo.</p>
+        <img class="image" src="dalas3.jpg" alt="Imagen de Dalas y Argos" />
+        <p>El caso tomó más tiempo de lo esperado. A pesar de las pruebas claras de que el perro era Argos, Miare cambió el microchip del animal para dificultar la prueba de propiedad. Dalas hizo público todo el proceso, mostrando la injusticia por la que estaba pasando.</p>
 
-    <p>En el juicio, se hizo una prueba en la que Argos reconoció a Dalas inmediatamente, corriendo hacia él a pesar de los años sin verse. El estado del perro era deplorable, lleno de suciedad y sin cuidados. Finalmente, el juez condenó a Miare y a sus cómplices, sentenciándolos a prisión si no devolvían al perro. Sin embargo, Miare apeló, intentando alargar el caso aún más.</p>
+        <p>Tras años de lucha, el caso se celebró en juicio para decidir si Argos era de Dalas o de Miare. Parecía irreal que se llegara a tales extremos por un perro, pero Dalas haría lo que fuera por recuperar a su querido compañero. A pesar de haber ofrecido un trato a Miare, lo único que quería era la devolución de Argos, pues sabía que su perro ya se estaba poniendo viejo.</p>
 
-    <p>Hoy en día, tras una apelación, Dalas ha vuelto a tener razón, y la justicia ha sido más severa para Miare y su familia. Con todo lo público que se había hecho el caso, quedó claro lo inmundas que fueron estas personas, que no solo causaron daño a Dalas, sino que tampoco mostraron respeto por el bienestar del perro. Nadie habría sufrido tanto por un perro, pero Dalas ama a los animales y defendería lo que fuera necesario. Aún se sigue esperando la devolución de Argos.</p>
+        <p>En el juicio, se hizo una prueba en la que Argos reconoció a Dalas inmediatamente, corriendo hacia él a pesar de los años sin verse. El estado del perro era deplorable, lleno de suciedad y sin cuidados. Finalmente, el juez condenó a Miare y a sus cómplices, sentenciándolos a prisión si no devolvían al perro. Sin embargo, Miare apeló, intentando alargar el caso aún más.</p>
+
+        <p>Hoy en día, tras una apelación, Dalas ha vuelto a tener razón, y la justicia ha sido más severa para Miare y su familia. Con todo lo público que se había hecho el caso, quedó claro lo inmundas que fueron estas personas, que no solo causaron daño a Dalas, sino que tampoco mostraron respeto por el bienestar del perro. Nadie habría sufrido tanto por un perro, pero Dalas ama a los animales y defendería lo que fuera necesario. Aún se sigue esperando la devolución de Argos.</p>
+    </div>
 </main>
 
-<footer>
+<footer class="footer">
     <p>&copy; 2025 - Derechos reservados</p>
 </footer>
 
