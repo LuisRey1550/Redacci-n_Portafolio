@@ -104,21 +104,29 @@ li {
     padding: 10px;
     margin-bottom: 10px;
 }
-  .introduccion {
-            margin: 20px auto;
-            padding: 20px;
+ .introduccion {
+            margin: 40px auto;
+            padding: 20px 15px;
             text-align: center;
-            font-size: 1.8rem;
+            font-size: 2rem;
             font-weight: bold;
             line-height: 1.8;
-            color: #444;
-            background-color: #f9f9f9;
-            border-radius: 12px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            max-width: 800px;
+            color: #333;
+            background-color: transparent;
+            max-width: 900px;
             font-family: 'Georgia', serif;
         }
 
         .introduccion span {
             color: #d35400;
+            font-style: italic;
+        }
+
+        .editorial {
+            text-align: center;
+            font-size: 1.5rem;
+            margin-top: 10px;
+            color: #555;
+            font-family: 'Arial', sans-serif;
+            font-style: italic;
         }
