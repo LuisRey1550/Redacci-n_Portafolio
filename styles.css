@@ -19,13 +19,9 @@ body, html {
     font-size: 2rem;
     text-align: center;
     position: relative;
-    animation: slideUp 15s forwards;
+
 }
 
-@keyframes slideUp {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-100vh); }
-}
 
 .integrantes {
     padding: 40px 20px;
