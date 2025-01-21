@@ -1,99 +1,54 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Afiche Digital</title>
+    <title>Toll Booth System</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
         body {
+            margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            text-align: center;
+            background-color: #f4f4f4;
+            color: #333;
         }
-
         header {
+            text-align: center;
             background-color: #333;
-            padding: 20px 0;
+            color: white;
+            padding: 20px;
         }
-
-        .logo img {
-            width: 150px;
+        .image-container {
+            text-align: center;
+            margin: 20px;
         }
-
-        .contenido {
-            background-color: #ffffff;
-            padding: 40px 20px;
+        .image-container img {
+            max-width: 100%;
+            height: auto;
             border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
-
-        h1 {
-            font-size: 2.5em;
-            color: #003366; /* Azul oscuro */
-        }
-
-        p {
-            font-size: 1.2em;
-            color: #003366; /* Azul oscuro */
-            margin-top: 20px;
-        }
-
-        .detalles {
-            margin-top: 30px;
-        }
-
-        .detalles ul {
-            list-style: none;
-            font-size: 1.1em;
-            color: #003366; /* Azul oscuro */
-            text-align: left;
-            display: inline-block;
-        }
-
-        .detalles li {
-            margin-bottom: 10px;
-        }
-
-        .cta-btn {
-            background-color: #FF6600;
-            color: #fff;
-            font-size: 1.2em;
-            padding: 15px 25px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            margin-top: 40px;
-        }
-
-        .cta-btn:hover {
-            background-color: #e65c00;
-        }
-
         footer {
+            text-align: center;
+            padding: 10px 20px;
             background-color: #333;
-            color: #fff;
-            padding: 15px 0;
-            margin-top: 40px;
-        }
-
-        footer p {
-            font-size: 0.9em;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="Electronic Bolt (2).png" alt="Logo de la empresa">
-        </div>
+        <h1>Electronic Bolt</h1>
     </header>
 
+    <div class="image-container">
+        <img src="Electronic Bolt (2).png" alt="Toll Booth System Illustration">
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Toll Booth Technologies. All rights reserved.</p>
+    </footer>
 </body>
 </html>
